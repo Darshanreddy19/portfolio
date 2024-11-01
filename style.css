@@ -59,7 +59,8 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 2%;
-    font-size: 60px;
+    font-size: 40px;
+    font-style: italic;
 }
 .header-text h1{
     font: size 60px;
@@ -69,7 +70,7 @@ nav ul li a:hover::after{
     color:#03ff1c;
 }
 #about{
-    padding: 80px 0;
+    padding:40px 0;
     color:#ababab;
 }
 .row{
@@ -334,6 +335,8 @@ form .btn2{
 }
 @media only screen and(max-width:600){
     .header-text{
+        margin: 0;
+        padding: 0;
         margin-top: 100%;
         font-size: 16px;
         margin-left: 30px;
