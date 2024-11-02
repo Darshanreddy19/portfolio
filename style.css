@@ -337,6 +337,11 @@ form .btn2{
     margin-top: 20px;
     font-size: 30px;
 }
+#msg{
+    color: #00ff00;
+    margin-top: -30px;
+    display: block;
+}
 @media only screen and(max-width:600){
     .header-text{
         margin: 0;
