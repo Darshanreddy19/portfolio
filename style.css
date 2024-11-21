@@ -131,7 +131,7 @@ html{
   background: #00ff26;
 }
 .dark-mode .navbar.sticky .fa-toggle-on{
-  color: black;
+  color: rgb(255, 0, 0);
 }
 .navbar .max-width{
   display: flex;
@@ -363,7 +363,7 @@ section .title::after{
 
 /* About page styling */
 .about .title::after{
-  content: "who I am";
+  content: "ME";
 }
 .about .about-content .left{
   width: 45%;
@@ -519,7 +519,7 @@ section .title::after{
 
 /* Skills page styling */
 .skills .title::after{
-  content: "what I excel";
+  content: "SO FAR";
 }
 .skills .skills-content .column{
   width: calc(50% - 30px);
@@ -583,7 +583,7 @@ section .title::after{
 
 /* Contact page styling */
 .contact .title::after{
-  content: "get in touch";
+  content: "TO KNOW MORE";
 }
 .contact .contact-content .column{
   width: calc(50% - 30px);
