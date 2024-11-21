@@ -15,7 +15,7 @@ html{
 
 /* Dark mode */
 .dark-mode{
-  background: #192734;
+  background: #000000;
 }
 .navbar .menu i{
   position: absolute;
@@ -36,7 +36,7 @@ html{
 .loader {
   position: fixed;
   border: 7px solid #f3f3f3;
-  border-top: 5px solid crimson;
+  border-top: 5px solid rgb(255, 0, 0);
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -69,7 +69,7 @@ html{
   z-index: 10;
 }
 .slider{
-  background: crimson;
+  background: rgb(255, 0, 0);
   position: fixed;
   top: 0;
   left: 0;
@@ -79,7 +79,7 @@ html{
   z-index: 11;
 }
 .dark-mode .slider{
-  background: #28abb9;
+  background: #11ff00;
 }
 .hide{
   background: black;
@@ -90,10 +90,10 @@ html{
   transform: translateY(100%);
 }
 #highlight{
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode #highlight{
-  color: #28abb9;
+  color: #00ff15;
 }
 .intro-text{
   color: aliceblue;
@@ -121,14 +121,14 @@ html{
 }
 .navbar.sticky{
   padding: 15px 0;
-  background: crimson;
+  background: rgb(255, 0, 0);
   box-shadow: 0px 3px 10px rgba(97, 91, 91, 0.548);
 }
 .dark-mode .navbar .fa-toggle-on{
   color: whitesmoke;
 }
 .dark-mode .navbar.sticky{
-  background: #28abb9;
+  background: #00ff26;
 }
 .dark-mode .navbar.sticky .fa-toggle-on{
   color: black;
@@ -152,10 +152,10 @@ html{
   color: white;
 }
 .navbar .logo a span{
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode .navbar .logo a span{
-  color: #28abb9;
+  color: #33ff00;
 }
 .navbar.sticky .logo a span{
   transition: all 0.3s ease;
@@ -179,7 +179,7 @@ html{
   color: white;
 }
 .navbar .menu li a:hover{
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode .navbar .menu li a:hover{
   color: #28abb9;
@@ -199,7 +199,7 @@ html{
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #ff0000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -211,7 +211,7 @@ html{
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background: rgb(255, 0, 0);
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -227,7 +227,7 @@ html{
   transition: all 0.3s ease;
 }
 .dark-mode .scroll-up-btn{
-  background: #28abb9;
+  background: #00ff11;
 }
 .scroll-up-btn.show{
   bottom: 30px;
@@ -268,42 +268,42 @@ html{
   margin: 5px 0;
 }
 .home .home-content .line-3 span{
-  color: crimson;
+  color: rgb(255, 0, 0);
   font-weight: 500;
 }
 .dark-mode .home .home-content .line-3 span{
-  color: #28abb9;
+  color: #33ff00;
 }
 .home .home-content a{
   display: inline-block;
-  background: crimson;
+  background: rgb(255, 0, 0);
   color: white;
   font-size: 25px;
   padding:0px 35px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(255, 0, 0);
   transition: all 0.3s ease;
 }
 .dark-mode .home .home-content a{
-  background: #28abb9;
-  border: 2px solid #28abb9;
+  background: #00ff33;
+  border: 2px solid #00ff33;
 }
 .home .home-content a:hover{
-  color: crimson;
+  color: rgb(255, 0, 0);
   background: none;
 }
 .dark-mode .home .home-content a:hover{
-  color: #28abb9;
+  color: #00ff44;
 }
 .rating .fa-star{
   color: #888;
 }
 .rating .checked{
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode .rating .checked{
-  color: #28abb9;
+  color: #2bff00;
 }
 
 /* Section styling */
@@ -342,12 +342,12 @@ section .title::after{
   left: 50%;
   position: absolute;
   padding: 5px;
-  color: crimson;
+  color: rgb(255, 0, 0);
   background: white;
   transform: translateX(-50%);
 }
 .dark-mode section .title::after{
-  color: #28abb9;
+  color: #00ff1a;
   background: #192734;
 }
 .about, .works, .skills, .contact{
@@ -386,10 +386,10 @@ section .title::after{
   color: white;
 }
 .about .about-content .right .text span{
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode .about .about-content .right .text span{
-  color: #28abb9;
+  color: #00ff08;
 }
 .about .about-content .right p{
   text-align: justify;
@@ -398,108 +398,123 @@ section .title::after{
   color: white;
 }
 .about .about-content .right p span{
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode .about .about-content .right p span{
-  color: #28abb9;
+  color: #00ff37;
 }
 .about .about-content .right a{
   display: inline-block;
-  background: crimson;
+  background: rgb(255, 0, 0);
   color: white;
   font-size: 20px;
   padding:10px 20px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(255, 0, 0);
   transition: all 0.3s ease;
 }
 .dark-mode .about .about-content .right a{
-  background: #28abb9;
-  border: 2px solid #28abb9;
+  background: #2fff00;
+  border: 2px solid #00ff0d;
 }
 .about .about-content .right a:hover{
-  color: crimson;
+  color: rgb(255, 0, 0);
   background: none;
 }
 .dark-mode .about .about-content .right a:hover{
-  color: #28abb9;
+  color: #15ff00;
 }
 
 /* Works page styling */
-.works{
-  color: white;
-  background: black;
+#My work{
+  padding: 50px 0;
 }
-.dark-mode .works{
-  color: black;
-  background: white;
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:40px;
+  margin-top: 50px;
 }
-.works .title{
-  color: white;
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
-.dark-mode .works .title{
-  color: black;
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
 }
-.works .title::before{
-  background: white;
-}
-.dark-mode .works .title::before{
-  background: black;
-}
-.works .title::after{
-  background: black;
-  content: "what I offer";
-}
-.dark-mode .works .title::after{
-  background: white;
-}
-.works .works-content .card{
-  height: 350px;
-  width: calc(25% - 20px);
-  background: #222222;
+.container{
   text-align: center;
-  border-radius: 6px;
-  padding: 20px 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  font-style: italic;
 }
-.dark-mode .works .works-content .card{
-  background: #222222;
+.dark-mode .container{
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  text-align: center;
 }
-.works .works-content .card:hover{
-  background: crimson;
+.layer{
+  width: 100%;
+  height:0%;
+  background: linear-gradient(rgba(0,0,0,0.6),#00ff00);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 60px;
+  color: #080808;
+  font-style: italic;
+  transition: height 0.5s;
+
 }
-.dark-mode .works .works-content .card:hover{
-  background: #28abb9;
+.layer a{
+  margin-top: 20px;
+  color:#62ff00; 
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #000000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
 }
-.works .works-content .card .box{
-  transition: all 0.3s ease;
-}
-.works .works-content .card:hover .box{
-  transform: scale(1.05);
-}
-.works .works-content .card i{
-  font-size: 40px;
-  color: crimson;
-  transition: all 0.3s ease;
-}
-.dark-mode .works .works-content .card i{
-  color: #28abb9;
-}
-.dark-mode .works .works-content .card .text, .dark-mode .works .works-content .card p{
-  color: white;
-}
-.works .works-content .card:hover i{
-  color: white;
-}
-.dark-mode .works .works-content .card:hover i, .dark-mode .works .works-content .card:hover p, .dark-mode .works .works-content .card:hover .text{
-  color: black;
-}
-.works .works-content .card .box .text{
-  font-size: 25px;
+
+.layer h1{
   font-weight: 500;
-  margin: 10px 0 7px 0;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.work:hover img{
+  transform: scale(1.1);
+}
+.work:hover .layer{
+  height: 100%;
+}
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #fff;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #000000; 
+  transition: background 0.5s;
+  
+}
+.btn:hover{
+  background: #01ff12;
 }
 
 /* Skills page styling */
@@ -545,40 +560,25 @@ section .title::after{
   height: 100%;
   left: 0;
   top: 0;
-  background: crimson;
+  background: rgb(255, 0, 0);
 }
 .dark-mode .skills .skills-content .right .line::before{
-  background: #28abb9;
+  background: #2fff00;
 }
 .skills-content .right .html::before{
   width: 95%;
 }
 .skills-content .right .css::before{
-  width: 95%;
+  width: 75%;
 }
 .skills-content .right .js::before{
   width: 65%;
 }
 .skills-content .right .python::before{
-  width: 95%;
+  width: 50%;
 }
 .skills-content .right .mysql::before{
-  width: 60%;
-}
-.skills-content .right .ps::before{
-  width: 95%;
-}
-.skills-content .right .ai::before{
-  width: 95%;
-}
-.skills-content .right .pr::before{
-  width: 95%;
-}
-.skills-content .right .au::before{
-  width: 85%;
-}
-.skills-content .right .ae::before{
-  width: 85%;
+  width: 90%;
 }
 
 /* Contact page styling */
@@ -612,10 +612,10 @@ section .title::after{
 }
 .contact .contact-content .row i{
   font-size: 25px;
-  color: crimson;
+  color: rgb(255, 0, 0);
 }
 .dark-mode .contact .contact-content .row i{
-  color: #28abb9;
+  color: #15ff00;
 }
 .contact .contact-content .info .head{
   color: #111111;
@@ -643,154 +643,63 @@ section .title::after{
   width: 100%;
   margin-bottom: 15px;
 }
-.contact .right form .textarea{
-  height: 80px;
+.contact-right form{
   width: 100%;
 }
-.contact .right form .name{
-  margin-right: 10px;
-}
-.contact .right form .email{
-  margin-left: 10px;  
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea{
-  height: 100%;
+.dark-mode form input{
   width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 6px;
+  border: 0;
   outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
-  transition: all 0.3s ease;
+  background: #02ff02;
+  padding: 15px;
+  margin: 15px 0;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 6px;
 }
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-  border-color: crimson;
+.dark-mode form textarea{
+width: 100%;
+  border: 0;
+  outline: none;
+  background: #02ff02;
+  padding: 15px;
+  margin: 15px 0;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 6px;
 }
-.dark-mode .contact .right form .field input:focus,
-.dark-mode .contact .right form .textarea textarea:focus{
-  border-color: #28abb9;
-}
-.contact .right form .textarea textarea{
-  padding-top: 10px;
-  resize: none;
-}
-.contact .right form .button{
-  height: 47px;
-  width: 170px;
-}
-.contact .right form .button button{
+form input,form textarea{
   width: 100%;
-  height: 100%;
-  border: 2px solid crimson;
-  background: crimson;
+  border: 0;
+  outline: none;
+  background: #ff0000;
+  padding: 15px;
+  margin: 15px 0;
   color: #fff;
-  outline: none;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
   border-radius: 6px;
+}
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
-.dark-mode .contact .right form .button button{
-  border: 2px solid #28abb9;
-  background: #28abb9;
+.copy-right{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background:#262626;
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 30px;
 }
-.contact .right form .button button:hover{
-  color: crimson;
-  background: none;
-}
-.dark-mode .contact .right form .button button:hover{
-  color: #28abb9;
+#msg{
+  color: #00ff00;
+  margin-top: -30px;
+  display: block;
 }
 
-/* Comment section styling */
-.comments .title::after{
-  content: "what you think";
-}
-.comments .comments-content{
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-}
-.dark-mode .comments .comments-content{
-  color: white;
-}
-.comments .comments-content .column{
-  width: calc(50%);
-}
-.comments .left .ask{
-  display: flex;
-}
-.comments .left form i{
-  cursor: pointer;
-  font-size: 35px;
-  transition: all 0.3s ease;
-  transform: translateY(10%);
-}
-.comments .left form i.active{
-  color: crimson;
-}
-.dark-mode .comments .left form i.active{
-  color: #28abb9;
-}
-.comments .left .ask p{
-  font-size: 15px;
-  font-weight: 600;
-}
-.comments .left form .textarea textarea{
-  padding: 0 15px;
-  padding-top: 10px;
-  font-family: 'Poppins', sans-serif;
-  resize: none;
-  outline: none;
-  font-size: 15px;
-  border-radius: 6px;
-  border: 1px solid lightgrey;
-  transition: all 0.3s ease;
-}
-.dark-mode .comments .left form .textarea textarea{
-  color: #f1f1f1;
-  background: #192734;
-}
-.dark-mode .comments .left form .textarea textarea::placeholder{
-  color: #d3d3d3;
-}
-.comments .left form .textarea textarea:focus{
-  border-color: crimson;
-}
-.dark-mode .comments .left form .textarea textarea:focus{
-  border-color: #28abb9;
-}
-.comments .left form .button button{
-  padding: 5px;
-  width: 15%;
-  border: 2px solid crimson;
-  background: crimson;
-  color: #fff;
-  outline: none;
-  font-size: 20px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.dark-mode .comments .left form .button button{
-  border: 2px solid #28abb9;
-  background: #28abb9;
-}
-.comments .left form .button button:hover{
-  color: crimson;
-  background: none;  
-}
-.dark-mode .comments .left form .button button:hover{
-  color: #28abb9;
-}
-.comments .right p{
-  font-size: 15px;
-  text-align: justify;
-}
 /* Footer styling */
 footer{
   font-family: 'PT Sans',sans-serif;
@@ -802,11 +711,11 @@ footer{
   align-items: center;
 }
 footer span a{
-  color: crimson;
+  color: rgb(255, 0, 0);
   text-decoration: none;
 }
 .dark-mode footer span a{
-  color: #28abb9;
+  color: #2bff00;
 }
 .social-icons{
   float: right;
@@ -815,22 +724,37 @@ footer span a{
   display: flexbox;
   font-size: 20px;
   letter-spacing: 5px;
-  color: crimson;
+  color: rgb(255, 0, 0);
   align-items: center;
 }
 .dark-mode .social-icons{
-  color: #28abb9;
+  color: #1aff00;
 }
 .social-icons a{
-  color: crimson;
+  color: rgb(255, 0, 0);
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
 .dark-mode .social-icons a{
-  color: #28abb9;
+  color: #00ff37;
 }
 .social-icons a:hover{
   color: aliceblue;
+}
+.circle {
+  --circle-size: 25px;
+  position: fixed;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 1px solid #000;
+  border-radius: 100%;
+  top: calc(var(--circle-size) / 2 * -1);
+  left: calc(var(--circle-size) / 2 * -1);
+  pointer-events: none;
+  background-color:#ff0000;
+}
+.dark-mode .circle{
+  background-color: #00ff00;
 }
 
 /* Responsive */
